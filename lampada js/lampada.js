@@ -9,3 +9,5 @@ function lampOn () {
 
 turnOn.addEventListener ( 'click' , lampOn );
 turnOff.addEventListener ( )
+lamp.addEventListener ( 'mouseover', lampOn );
+lamp.addEventListener ( 'mouseleave', lampOff );
