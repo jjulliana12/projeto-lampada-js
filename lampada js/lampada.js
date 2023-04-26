@@ -8,6 +8,6 @@ function lampOn () {
 }
 
 turnOn.addEventListener ( 'click' , lampOn );
-turnOff.addEventListener ( )
+turnOff.addEventListener ( 'click', lampOff );
 lamp.addEventListener ( 'mouseover', lampOn );
 lamp.addEventListener ( 'mouseleave', lampOff );
